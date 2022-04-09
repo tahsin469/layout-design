@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@300;600&family=Raleway:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+header{
+    background: linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(bg.jpg);/*most use*/
+   height: 100vh; 
+   color:white;
+   background-size: cover;/*most use*/
+   background-position:center;/*most use*/
+}
+nav{
+    padding:15px 30px;
+    overflow: auto;
+
+}
+nav #logo{
+    font-size: 30px;
+    float: left;
+    font-family:Merriweather;
+}
+nav #logo span{
+    display:block;
+    font-size: 10px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+nav .nav-links{
+    float:right;
+    margin-top: 15px;
+}
+nav .nav-links ul{
+list-style: none;
+padding: 0;
+
+}
+nav .nav-links ul li{
+    display: inline-block;
+    padding:10px 30px;
+}
+nav .nav-links ul li a{
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+font-family:Poppins;
+font-weight: 600;
+font-size: 18px;
+
+}
+nav .nav-links ul li:last-child a{
+border:2px solid white;
+padding: 15px 30px;
+border-radius: 40px;
+transition:all 0.3s ease-in-out;
+}
+nav .nav-links ul li:last-child a:hover{
+background-color:white;
+color:rgba(0,0,0,1);
+}
+header .text{
+    margin:0 auto;
+    text-align: center;
+    font-family: Montserrat;
+
+}
+header .text h3{
+ font-style: italic;   
+}
+header .text h1{
+font-size: 45px;
+margin:30 px auto;
+text-transform: uppercase;
+}
+
+header .text a{
+    border:2px solid #B3CAD5;
+    padding: 15px 30px;
+    border-radius: 40px;
+    transition:all 0.3s ease-in-out;
+    color: white; 
+    text-decoration: none;
+background-color:#B3CAD5;
+display: inline-block;
+
+
+}
